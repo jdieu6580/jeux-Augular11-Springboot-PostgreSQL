@@ -1,0 +1,105 @@
+/* Styles généraux */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles de l'en-tête */
+#header {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.header-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+}
+
+/* Styles de chaque section */
+.section-content {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Styles pour la liste de projets */
+.project {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styles pour la liste de compétences */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Styles pour la liste d'expériences */
+.experience-item {
+    margin-bottom: 20px;
+}
+
+/* Styles pour la liste d'éducation */
+.education-item {
+    margin-bottom: 20px;
+}
+
+/* Styles pour la liste d'articles de blog */
+.blog-post {
+    margin-bottom: 20px;
+}
+
+/* Styles pour le formulaire de contact */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label, input, textarea, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Styles pour le pied de page */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Styles pour les liens sociaux */
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+}

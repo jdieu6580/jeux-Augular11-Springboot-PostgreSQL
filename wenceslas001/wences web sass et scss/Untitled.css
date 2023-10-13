@@ -1,0 +1,13 @@
+.col{
+    background-color: black;
+    color: #fff;
+    margin: 20% 0;
+}
+.row{
+    background-color: aqua;
+}
+.une {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    background-color: violet;
+}

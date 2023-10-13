@@ -1,0 +1,28 @@
+p {
+  font-family: Berlin Sans FB Demi, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: rgb(246, 201, 201) !important;
+}
+
+nav {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  margin-right: 2, 5rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #707070;
+}
+nav ul li a:hover {
+  color: #069c54;
+}/*# sourceMappingURL=scss.css.map */

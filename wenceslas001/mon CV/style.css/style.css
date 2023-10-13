@@ -1,0 +1,59 @@
+.salut1
+{   color:rgb(0, 0, 233);
+    font-size: 190%;
+    font-family:'Helvetica Neue';
+    text-align: center;
+    border-left: 3px dotted #000000;
+    border-top: 2px solid blue;
+    border-bottom: 4px dotted blueviolet;
+    border-right: 6px solid red;
+    border-radius: 40px 40px 40px 40px ;
+    box-shadow: 6px 6px 15px blue;
+}
+
+
+
+a[href="#Accueil"]
+{
+    color:rgba(255, 10, 10 1.5);
+    font-family: 'Borel', cursive;
+    font-size: 5em;
+    text-align: right;
+  
+
+}
+#Accueil
+{
+    color:rgb(0, 255, 42);
+    font-size: 190%;
+    font-family:'Helvetica Neue';
+    text-align: justify;
+}
+
+
+
+#salut3
+{   color:rgb(255, 0, 0);
+    font-size: 190%;
+    font-family:'Helvetica Neue';
+    font-style: italic;
+    font-weight: 800;
+    text-align: left;
+}
+
+.salut2
+{   color:rgb(205, 207, 52);
+    font-family: 'Borel', cursive;
+    font-weight: 800;
+    font-style: italic;
+
+}
+
+body{
+    background-image:url(../mesimg/web02.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+   
+} 

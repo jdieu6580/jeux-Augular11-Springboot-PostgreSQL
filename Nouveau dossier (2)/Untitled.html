@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    
+    <title>Devinette de Chiffres</title>
+    <link rel="stylesheet" href="Untitled.css">
+</head>
+<body>
+    <h1>Devinette de Chiffres</h1>
+    <div class="game-container">
+        <div class="guess-container">
+            <p>Devinez le chiffre entre 0 et 1000:</p>
+            <input type="number" id="guessInput" min="0" max="1000">
+            <input type="submit" value="Devinez" onclick="checkGuess()">
+            <p id="message"></p>
+            <p>Nombre de tentatives restantes : <span id="attempts"></span></p>
+            <p>Score total : <span id="score"></span></p>
+            <button onclick="startNewGame()">Nouvelle partie</button>
+        </div>
+        <div class="secret-number">
+          <p>Le nombre secret était : <span id="secretNumberDisplay"></span></p>
+      </div>
+        
+    </div>
+
+    <script src="Untitled.js"></script>
+</body>
+</html>

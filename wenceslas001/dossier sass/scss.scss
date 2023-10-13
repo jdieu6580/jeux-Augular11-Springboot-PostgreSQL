@@ -1,0 +1,30 @@
+
+@import"variables";
+@import"globals";
+@import"buttons";
+p{
+    font-family: Berlin Sans FB Demi, sans-serif;
+    font-size: 16px;
+}
+body{
+    background-color: $ma-couleur !important;
+}
+nav{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    ul{
+        list-style: none;
+        display: flex;
+        li{
+            margin-right: 2,5rem;
+            a{
+                text-decoration: none;
+                color: #707070;
+                &:hover{
+                    color: #069c54;
+                }
+            }
+        }
+    }
+}

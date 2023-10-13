@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.game-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.guess-container {
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    padding: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"], button {
+    padding: 5px 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #28a745;
+}
+
+#message {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #ff5733;
+}
+
+#attempts, #score {
+    font-weight: bold;
+    color: #333;
+}
+
+.balls-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.ball {
+    width: 60px;
+    height: 60px;
+    background-color: #007bff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+}
+
+.ball.revealed {
+    background-color: #28a745;
+    cursor: default;
+}

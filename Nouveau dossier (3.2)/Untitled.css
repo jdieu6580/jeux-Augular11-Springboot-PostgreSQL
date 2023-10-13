@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+    width: 300px;
+}
+
+.oncl {
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.oncl.x {
+    background-color: yellow;
+}
+
+.oncl.o {
+    background-color: red;
+}
+
+.oncl.win {
+    background-color: green;
+}
+
+.status {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.player {
+    padding: 0px 75px 0px 75px;
+    display: flex;
+    align-items: center;
+}
+
+.player-sign {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #ffffff;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.X {
+    color: yellow;
+}
+
+.O {
+    color: red;
+}
+
+.player-score {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #479fc0;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.button:hover {
+    background-color: #5be37b;
+}
+
+
+.status {
+    display: grid;
+    margin: 2px auto;
+    width: 300px;
+    
+    border: #ffffff solid 2px;
+}
+.monjeu { 
+margin: 50px 500px 0px 500px;
+padding: 10px 0px 20px 0px;
+background-color: #0075D6;
+border-radius: 75px;
+color: #ffff;
+
+}
+
+.monjeu:hover {
+    background-color: #4a4f4b;
+    border-bottom: #5be37b solid 3px;
+}
+.morpion{
+    background-image: url('mongif/002_pdDyr9Qi.gif');}

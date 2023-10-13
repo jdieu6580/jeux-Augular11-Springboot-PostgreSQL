@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="Untitled.css" rel="stylesheet" >
+    <title>Morpion</title>
+</head>
+<body class="morpion">
+    <div class="monjeu">
+        <h1>LE JEU MORPION</h1>
+        <div class="score">
+            <div class="player">
+                <div class="player-sign X"><strong>X</strong></div>
+                <div id="playerX-score" class="player-score">0</div>
+            </div>
+            <div class="player">
+                <div class="player-sign O">O</div>
+                <div id="playerO-score" class="player-score"><strong>O</strong></div>
+            </div>
+        </div>
+        <div class="game">
+            <div class="oncl" onclick="makeMove(0)"></div>
+            <div class="oncl" onclick="makeMove(1)"></div>
+            <div class="oncl" onclick="makeMove(2)"></div>
+            <div class="oncl" onclick="makeMove(3)"></div>
+            <div class="oncl" onclick="makeMove(4)"></div>
+            <div class="oncl" onclick="makeMove(5)"></div>
+            <div class="oncl" onclick="makeMove(6)"></div>
+            <div class="oncl" onclick="makeMove(7)"></div>
+            <div class="oncl" onclick="makeMove(8)"></div>
+        </div>
+        
+        <div id="status" class="status">Le jeu peut commencer ! Joueur X, c'est votre tour.</div>
+        <div id="winner" class="status"></div>
+        <button id="reset" onclick="resetGame()" class="button">Rejouer</button>
+        <script src="Untitled.js"></script>
+    </div>
+</body>
+</html>
